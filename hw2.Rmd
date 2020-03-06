@@ -32,5 +32,5 @@ hist(iris$Sepal.Width)
 # Problem 4: Draw a scatter plot 
 
 ```{r}
-
+plot(iris)
 ```
