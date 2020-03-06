@@ -12,14 +12,14 @@ knitr::opts_chunk$set(echo = TRUE)
 # Problem 1: Summarize the Iris dataset 
 
 ```{r}
-str(iris)
+#str(iris)
 summary(iris)
 ```
 
 # Problem 2:
 
 The sample median of the variable Petail.With is  
-```{r}
+```{r,echo=FALSE}
 median(iris$Petal.Width)
 ```
 
